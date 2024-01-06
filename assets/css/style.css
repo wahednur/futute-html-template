@@ -21,11 +21,17 @@ a {
   padding: 15px 20px;
   border: 1px solid #f15b22;
   border-radius: 5px;
+  transition: all ease-in-out 500ms;
 }
 .btn-fill {
   background-color: #f15b22;
   color: #fff;
   font-size: 20px;
+  transition: all ease-in-out 500ms;
+}
+.btn-fill:hover {
+  background-color: #fff;
+  color: #f15b22;
 }
 .container {
   width: 1140px;
@@ -174,6 +180,7 @@ section {
   font-weight: 700;
   color: #fff;
   margin-bottom: 20px;
+  transition: all ease-in-out 500ms;
 }
 .call-section .flex-item {
   width: 459px;
@@ -186,6 +193,11 @@ section {
   font-style: normal;
   font-weight: 600;
 }
+.call-section .btn-white:hover {
+  background-color: #ffc2ab;
+  color: #fff;
+  transition: all ease-in-out 500ms;
+}
 
 /* My Place section css end  */
 /* Footer section css start  */
@@ -195,5 +207,82 @@ section {
   width: 100%;
   height: 100%;
   float: left;
+}
+.footer .flex-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+.footer .flex-content p {
+  width: 485px;
+}
+.flex-content svg {
+  background-color: #fff !important;
+  width: 46px;
+  height: 46px;
+  border-radius: 46px;
+  font-size: 20px;
+  padding: 10px;
+  width: 20px;
+  height: 20px;
+}
+.flex-content .social-icon {
+  margin-top: 32px;
+}
+.flex-content .social-icon .fa-brands {
+  width: 20px !important;
+  height: 20px !important;
+}
+.flex-content .social-icon .fa-x-twitter {
+  color: #151414;
+}
+.flex-content .social-icon .fa-facebook-f {
+  color: #006aff;
+}
+.flex-content .social-icon .fa-youtube {
+  color: #ff0000;
+}
+.flex-content .left {
+  width: calc(100% - 325px);
+}
+.footer .section-title {
+  font-size: 45px;
+}
+.footer p {
+  line-height: 26px;
+  padding: 20px 0;
+}
+.footer .subs-cont {
+}
+.subs-cont .form-control {
+  width: 100%;
+  height: 36px;
+  display: block;
+  float: left;
+  border-radius: 5px;
+  padding-left: 15px;
+  margin: 20px 0;
+}
+.footer .subs-cont .subs {
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+}
+.footer .subs-cont .subs-btn {
+  float: left;
+  background-color: #fff;
+  color: #f15b22;
+  border: none;
+}
+.footer .subs-cont .subs-btn:hover {
+  background-color: #f15b22;
+  color: #fff;
+  transition: all ease-in-out 500ms;
 }
 /* Footer section css end  */
