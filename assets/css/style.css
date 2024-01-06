@@ -186,4 +186,14 @@ section {
   font-style: normal;
   font-weight: 600;
 }
+
 /* My Place section css end  */
+/* Footer section css start  */
+.footer {
+  background-color: #151414;
+  display: block;
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+/* Footer section css end  */
