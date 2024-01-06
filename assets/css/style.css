@@ -36,6 +36,11 @@ a {
   margin-top: 140px;
   margin-bottom: 140px;
 }
+section {
+  float: left;
+  display: block;
+  width: 100%;
+}
 /* reset css end  */
 /* header content css start  */
 
@@ -106,4 +111,36 @@ a {
 .hero-section .right-text .key-point fa.fa-check {
   color: #16d887;
 }
+
 /* Hero section css end  */
+/* My Place section css start  */
+.my-plane {
+  text-align: center;
+}
+.my-plane .section-title {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.my-plane .flex-plane {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+.my-plane .flex-plane .plane-title {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 16px 0;
+}
+.my-plane .flex-plane p {
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  color: #737272;
+}
+/* My Place section css end  */
