@@ -260,6 +260,9 @@ section {
   padding: 20px 0;
 }
 .footer .subs-cont {
+  width: 100%;
+  display: block;
+  float: left;
 }
 .subs-cont .form-control {
   width: 100%;
@@ -303,3 +306,51 @@ section {
 }
 
 /* Footer section css end  */
+
+/* media query start  */
+/* Extra small devices (phones, 600px and down) */
+
+/* Extra small devices (phones, 600px and down) */
+
+@media (max-width: 600px) {
+  header,
+  section,
+  .container,
+  .header-section {
+    display: block;
+    width: 100% !important;
+    float: left;
+  }
+  img {
+    max-width: 100%;
+  }
+  .header-section {
+    min-height: 303px;
+    background-position: left center;
+  }
+  .header-section .flex-content {
+    display: block;
+    float: left;
+    width: 100%;
+  }
+  .main-content {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
