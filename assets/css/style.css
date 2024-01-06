@@ -32,6 +32,10 @@ a {
   display: block;
   margin: 0 auto;
 }
+.my-140 {
+  margin-top: 140px;
+  margin-bottom: 140px;
+}
 /* reset css end  */
 /* header content css start  */
 
@@ -68,5 +72,38 @@ a {
 .header-section .btn {
   margin-top: 30px;
 }
+
 /* Main content css end  */
 /* header content css end  */
+/* Hero section css star  */
+.hero-section {
+  display: block;
+  float: left;
+}
+.hero-section .flex-contain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 87px;
+}
+.hero-section .right-text,
+.hero-section .left-img {
+  width: calc(50% - 44px);
+}
+.hero-section .right-text .hero-title {
+  font-size: 40px;
+  font-weight: 700;
+}
+.hero-section .right-text p {
+  font-size: 16px;
+  margin-top: 24px;
+}
+.hero-section .right-text .key-point span {
+  margin-left: 15px;
+}
+.hero-section .right-text .key-point fa.fa-check {
+  color: #16d887;
+}
+/* Hero section css end  */
