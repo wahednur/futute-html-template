@@ -143,4 +143,47 @@ section {
   font-weight: 500;
   color: #737272;
 }
+.call-section .bg {
+  background-image: url("../images/hand-wash.png");
+  height: 300px;
+  background-repeat: no-repeat;
+  display: block;
+}
+.bg-overlay {
+  border-radius: 8px;
+  background: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%);
+  width: 100%;
+  height: 100%;
+  float: left;
+  display: block;
+}
+.call-section .flex-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.call-section .flex-content .call-title {
+  width: 100%;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.call-section .flex-item {
+  width: 459px;
+  margin-left: 64px;
+}
+.call-section .btn-white {
+  background-color: #fff;
+  color: #f15b22;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+}
 /* My Place section css end  */
