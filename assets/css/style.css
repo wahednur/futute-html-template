@@ -286,4 +286,20 @@ section {
   color: #fff;
   transition: all ease-in-out 500ms;
 }
+.copyrite {
+  display: block;
+  float: left;
+  text-align: center;
+  background-color: #f15b22;
+  width: 100%;
+}
+.copyrite p {
+  padding: 15px !important;
+}
+.copyrite p a {
+  color: #fff;
+  margin-left: 15px;
+  font-weight: 700;
+}
+
 /* Footer section css end  */
